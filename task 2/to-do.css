@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flexbox;
+    justify-content: center;
+    
+  }
+  
+  h1, h2 {
+    margin-top: 80px;
+    text-align:center;
+
+    
+  }
+  
+  #input-container {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+    
+  
+  #input-container input, #input-container button {
+    margin-right: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+    
+  }
+  
+  li {
+    margin-bottom: 5px;
+    background-color: #fefdf8;
+    border: 1px solid #ddd;
+    padding: 5px;
+
+  }
+  
+  .completed-task {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+
+
+  input[type=text] {
+    background-color: #210f07;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.5;
+    font-size: 20px;
+    width: 400px;
+  }
+
+  input[type=number] {
+    background-color: #210f07;
+    border: none;
+    color: white;
+    padding: 16px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.5;
+    font-size: 20px;
+    width: 180px;
+  }
+  
+  body, html {
+    height: 100%;
+    background: url(to-do.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+  }
+  
+  
+  
+  .button {
+    transition-duration: 0.4s;
+    height: 60px;
+  }
+  
+  .button:hover {
+    background-color: #000000;
+    opacity: 0.8;
+    color: white;
+  }
+  
+

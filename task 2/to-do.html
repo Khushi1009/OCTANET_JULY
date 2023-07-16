@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List</title>
+  <link rel="stylesheet" type="text/css" href="to-do.css">
+</head>
+<body>
+  <h1>To-Do List</h1>
+  <div id="input-container">
+    <input type="text" id="taskInput" placeholder="Enter a task" size="50px">
+    <input type="number" id="priorityInput" placeholder="Priority (1-5)">
+    <button onclick="addTask()" class="button">Add Task</button>
+  </div>
+  <h2>Tasks to be Completed</h2>
+  <ul id="todoList"></ul>
+  <h2>Completed Tasks</h2>
+  <ul id="completedList"></ul>
+
+  <script src="to-do.js"></script>
+</body>
+</html>
